@@ -20,7 +20,7 @@ c1 = Cal(10,10)
 print(c1.add())
 print(c1.subtract())
 c1.setV1('one')
-c1.v1 = 'one'
+#c1.v1 = 'one'    파이썬은 이렇게 직접 접근하는 것을 막을 수는 없다. 이 객체를 올바르게 잘 사용할 것이라고 기대하는 미덕의 파이썬
 
 c1.v2 = 30
 print(c1.add())
